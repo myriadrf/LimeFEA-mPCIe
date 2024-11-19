@@ -1,3 +1,3 @@
 # LimeFEA mPCIe
 
-mini PCIe to PCIe adapter board compatible with LimeSDR-XTRX.
+Mini PCIe to PCIe adapter board with RF fron end compatible with LimeSDR-XTRX.
