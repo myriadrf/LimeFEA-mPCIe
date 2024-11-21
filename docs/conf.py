@@ -18,12 +18,12 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'LimePSB RPCM Boards'
+project = 'LimeFEA mPCIe Boards'
 copyright = '2024, MyriadRF Contributors'
 author = 'Lime Microsystems'
 
 # The full version, including alpha/beta/rc tags
-release = '23.01'
+release = 'v1.0'
 
 highlight_language = 'console'
 
