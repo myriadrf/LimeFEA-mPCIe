@@ -133,7 +133,7 @@ Board components are described in the table 1
   | X17                     | Header            | +VCXTRX power input (when PCIE or USB not available) |
   +-------------------------+-------------------+------------------------------------------------------+
 
-LimeSDR mPCIe Board Architecture
+LimeFEA mPCIe Board Architecture
 ================================
 
 This chapter is dedicated for detail description of LimeFEA mPCIe board components and interconnections.
