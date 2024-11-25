@@ -23,7 +23,7 @@ LimeFEA mPCIe board features:
   * PCIe x4 card edge connector (2 PCIe lanes)
   * mini PCIe (1.55 mm heigth) connector (2 PCIe lanes)
   * USB 2.0 microB
-  * JTAG (2.54 mm pitch) header that is connected to a spring connector (for LimeSDR-XTRX)
+  * JTAG (2.54 mm pitch) header that is connected to a spring connector (for LimeSDR XTRX)
   * Nano-SIM socket
   * Coaxial RF (12x U.FL female) connectors for RF front end and synchronization signals 
  
@@ -46,12 +46,12 @@ LimeFEA mPCIe board features:
 
 * Board size: 68.9mm x 100mm (Low-Profile PCIe expansion card)
 
-For more information on the following topics, refer to `LimeSDR-XTRX documentation. <https://limesdr-xtrx.myriadrf.org>`_ 
+For more information on the following topics, refer to `LimeSDR XTRX documentation. <https://LimeSDR-XTRX.myriadrf.org>`_ 
 
 Board Overview
 -------------- 
 
-The heart of the LimeFEA mPCIe adapter board is mPCIe x2 socket compatible with LimeSDR-XTRX. LimeFEA mPCIe provides user with SIM micro socket and RF front end (RFFE). The block diagram for LimeFEA mPCIe board is as shown in figure 3.
+The heart of the LimeFEA mPCIe adapter board is mPCIe x2 socket compatible with LimeSDR XTRX. LimeFEA mPCIe provides user with SIM micro socket and RF front end (RFFE). The block diagram for LimeFEA mPCIe board is as shown in figure 3.
 
 .. figure:: documentation/images/LimeFEA-mPCIe_v1.0_block.svg
   :width: 600
@@ -112,13 +112,13 @@ Board components are described in the table 1
   +-------------------------+-------------------+------------------------------------------------------+
   | **Clock Circuitry**                                                                                |
   +-------------------------+-------------------+------------------------------------------------------+
-  | X3                      | U.FL              | PPS in (used by LimeSDR-XTRX)                        |
+  | X3                      | U.FL              | PPS in (used by LimeSDR XTRX)                        |
   +-------------------------+-------------------+------------------------------------------------------+
-  | X4                      | U.FL              | PPS out (used by LimeSDR-XTRX)                       |
+  | X4                      | U.FL              | PPS out (used by LimeSDR XTRX)                       |
   +-------------------------+-------------------+------------------------------------------------------+
-  | X11                     | U.FL              | clock output (used by LimeSDR-XTRX)                  |
+  | X11                     | U.FL              | clock output (used by LimeSDR XTRX)                  |
   +-------------------------+-------------------+------------------------------------------------------+
-  | X12                     | U.FL              | clock input  (used by LimeSDR-XTRX)                  |
+  | X12                     | U.FL              | clock input  (used by LimeSDR XTRX)                  |
   +-------------------------+-------------------+------------------------------------------------------+
   | **Power Supply**                                                                                   |
   +-------------------------+-------------------+------------------------------------------------------+
@@ -133,7 +133,7 @@ Board components are described in the table 1
   | X17                     | Header            | +VCXTRX power input (when PCIE or USB not available) |
   +-------------------------+-------------------+------------------------------------------------------+
 
-LimeFEA-mPCIe Board Architecture
+LimeSDR mPCIe Board Architecture
 ================================
 
 This chapter is dedicated for detail description of LimeFEA mPCIe board components and interconnections.
@@ -280,7 +280,7 @@ LimeFEA mPCIe board is a low-profile PCIe expansion card designed to fit into x4
 Mini PCIe Socket
 -------------------------
 
-LimeFEA mPCIe board features mini PCIe specification compatible socket. Mini PCIe specification defines only 1 PCIe lane, but LimeFEA mPCIe features 2 PCIe lanes. Also mPCIe socket provides synchronization signals for LimeSDR-XTRX board. More detailed information is listed in
+LimeFEA mPCIe board features mini PCIe specification compatible socket. Mini PCIe specification defines only 1 PCIe lane, but LimeFEA mPCIe features 2 PCIe lanes. Also mPCIe socket provides synchronization signals for LimeSDR XTRX board. More detailed information is listed in
 
 .. table:: Table 3. mPCIe connector (X5) pinout
 
