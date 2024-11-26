@@ -16,6 +16,13 @@ The LimeFEA mPCIe is 2 lane PCIe to mini PCIe adapter that provides a hardware p
 
   Figure 2: LimeFEA mPCIe v1.0 board top view
 
+Also lite version of LimeFEA mPCIe is availabe without RFFE and synchronization connectors.
+
+.. figure:: documentation/images/LimeFEA-mPCIe_v1.0_top(lite).png
+  :width: 600
+  
+  Figure 3: LimeFEA mPCIe v1.0 lite version board top view
+
 LimeFEA mPCIe board features:
 
 * Connectors:
@@ -51,19 +58,19 @@ For more information on the following topics, refer to `LimeSDR XTRX documentati
 Board Overview
 -------------- 
 
-The heart of the LimeFEA mPCIe adapter board is mPCIe x2 socket compatible with LimeSDR XTRX. LimeFEA mPCIe provides user with SIM micro socket and RF front end (RFFE). The block diagram for LimeFEA mPCIe board is as shown in figure 3.
+The heart of the LimeFEA mPCIe adapter board is mPCIe x2 socket compatible with LimeSDR XTRX. LimeFEA mPCIe provides user with SIM micro socket and RF front end (RFFE). The block diagram for LimeFEA mPCIe board is as shown in figure 4.
 
 .. figure:: documentation/images/LimeFEA-mPCIe_v1.0_block.svg
   :width: 600
 
-  Figure 3: LimeFEA mPCIe v1.0 block diagram
+  Figure 4: LimeFEA mPCIe v1.0 block diagram
 
-LimeFEA mPCIe v1.0 board picture with highlighted connectors and main components are presented in figure 4.
+LimeFEA mPCIe v1.0 board picture with highlighted connectors and main components are presented in figure 5.
 
 .. figure:: documentation/images/LimeFEA-mPCIe_v1.0_draftsman.png
   :width: 600
 
-  Figure 3: LimeFEA mPCIe v1.0 connectors and main components
+  Figure 5: LimeFEA mPCIe v1.0 connectors and main components
 
 Board components are described in the table 1
 
@@ -394,15 +401,15 @@ LimeFEA mPCIe board features mini PCIe specification compatible socket. Mini PCI
   | 52       | 3.3Vaux                     | VCC3P3                      | VCC3P3_MPCIE               | Main power input 3.3V   (VCC3P3_MPCIE)                           |
   +----------+-----------------------------+-----------------------------+----------------------------+------------------------------------------------------------------+
 
-RF Front End
+RF Front End (only in full version)
 -------------------------
 
-LimeFEA mPCIe RF path features power amplifiers, low noise amplifiers and SPDT switches as shown in figure 4.
+LimeFEA mPCIe RF path features power amplifiers, low noise amplifiers and SPDT switches as shown in figure 6.
 
 .. figure:: documentation/images/LimeFEA-mPCIe_v1.0_RFFE.svg
   :width: 600
 
-  Figure 4: LimeFEA mPCIe v1.0 RF path block diagram
+  Figure 6: LimeFEA mPCIe v1.0 RF path block diagram
 
 A single control signal (TDD_GPIO3_N) is used to control all RF switches simultaneously for both A and B channels to change between TDD and FDD modes as shown in table 4.
 
@@ -457,15 +464,15 @@ More detailed RF path component parameters are given in table 6.
   |               |              | 6000               | -1.6         | -                    | -          |
   +---------------+--------------+--------------------+--------------+----------------------+------------+
 
-PPS and Clock Connectors
+PPS and Clock Connectors (only in full version)
 -------------------------
 
-There are U.FL connectors that can be used to input and output PPS and clock signals for LimeSDR XTRX board. Clock and PPS signal directions are shown in figure 5.
+There are U.FL connectors that can be used to input and output PPS and clock signals for LimeSDR XTRX board. Clock and PPS signal directions are shown in figure 7.
 
 .. figure:: documentation/images/LimeFEA-mPCIe_v1.0_clock.svg
   :width: 600
 
-  Figure 5: LimeFEA mPCIe v1.0 RF PPS and clock signal block diagram
+  Figure 7: LimeFEA mPCIe v1.0 RF PPS and clock signal block diagram
 
 PPS and clock connectors descriptions are listed in table 7
 
@@ -530,12 +537,12 @@ So JTAG header (X8) can be used to connect LimeSD XTRXT to JTAG programmer. More
 Power Distribution
 -------------------------
 
-LimeFEA mPCIe board power delivery network consists of different power rails with different regulators, voltages and filters. LimeFEA mPCIe board power distribution block diagram is presented in figure 6.
+LimeFEA mPCIe board power delivery network consists of different power rails with different regulators, voltages and filters. LimeFEA mPCIe board power distribution block diagram is presented in figure 8.
 
 .. figure:: documentation/images/LimeFEA-mPCIe_v1.0_power.svg
   :width: 600
 
-  Figure 6: LimeFEA mPCIe v1.0 power distribution block diagram
+  Figure 8: LimeFEA mPCIe v1.0 power distribution block diagram
 
 LimeFEA mPCIe board may be supplied from USB microB port (USB 5V), PCIe edge connector (12V and 3.3V) or header (3.3V or 5V). It is important to note that only 3.3V is permitted by mPCIe specification, so use 5V power only if manufacturer specifies 5V supply (for example  LimeSDR XTRX does allow 5V power supply voltage):
 
