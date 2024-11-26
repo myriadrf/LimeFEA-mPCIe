@@ -16,7 +16,7 @@ The LimeFEA mPCIe is 2 lane PCIe to mini PCIe adapter that provides a hardware p
 
   Figure 2: LimeFEA mPCIe v1.0 board top view
 
-Also lite version of LimeFEA mPCIe is availabe without RFFE and synchronization connectors.
+Also lite version of LimeFEA mPCIe is availabe without RFFE, nano-SIM socket and synchronization connectors.
 
 .. figure:: documentation/images/LimeFEA-mPCIe_v1.0_top(lite).png
   :width: 600
@@ -42,7 +42,7 @@ LimeFEA mPCIe board features:
 * General user inputs/outputs:
 
   * 3x general purpose LEDs (PCIe indication by default)
-  * 3x general purpose I/Os
+  * 3x general purpose I/Os (unpopulated)
   * Power source selection for mini PCIe card and RFFE (2.54 mm pitch headers)
 
 * Board power sources:
@@ -402,7 +402,7 @@ LimeFEA mPCIe board features mini PCIe specification compatible socket. Mini PCI
   +----------+-----------------------------+-----------------------------+----------------------------+------------------------------------------------------------------+
 
 RF Front End (only in full version)
--------------------------
+-----------------------------------
 
 LimeFEA mPCIe RF path features power amplifiers, low noise amplifiers and SPDT switches as shown in figure 6.
 
@@ -465,7 +465,7 @@ More detailed RF path component parameters are given in table 6.
   +---------------+--------------+--------------------+--------------+----------------------+------------+
 
 PPS and Clock Connectors (only in full version)
--------------------------
+-----------------------------------------------
 
 There are U.FL connectors that can be used to input and output PPS and clock signals for LimeSDR XTRX board. Clock and PPS signal directions are shown in figure 7.
 
@@ -490,8 +490,8 @@ PPS and clock connectors descriptions are listed in table 7
   | X12                 | 19            | External clock input   3.3 V   |
   +---------------------+---------------+--------------------------------+
 
-GPIO Connector
--------------------------
+GPIO Connector (unpopulated)
+----------------------------
 
 Some mPCIe connector (X5) pins are connected to 2.54 mm pin header. By default it is not populated. GPIO header pinuot signals are not defined in specification and only used by LimeSDR XTRX board. GPIO header pins and additional information is given in table 8.
 
