@@ -60,7 +60,7 @@ html_last_updated_fmt = '%b %d, %Y'
 html_context = {
     'display_github': True,
     'github_user': 'myriadrf',
-    'github_repo': 'LimePSB-RPCM',
+    'github_repo': 'LimeFEA-mPCIe',
     'github_version': 'master/docs/' 
 }
 
