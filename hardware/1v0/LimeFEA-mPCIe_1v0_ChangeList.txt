@@ -1,0 +1,19 @@
+------------------LimeFEA-MPCIe---------------------------------
+
+LimeFEA-MPCIe_1v0(_DB)_DFMr0:
+ - Initial version 
+
+
+LimeFEA-MPCIe_1v0(_DB)_DFMr1:
+ - Added board color note (Dar blue)
+ - Added PCB top layer material note (RF material is required) 
+
+
+
+------------------LimeFEA-MPCIe_lite---------------------------------
+
+LimeFEA-MPCIe_1v0(_DB)_DFMr0_lite_r1:
+ - Initial version 
+
+LimeFEA-MPCIe_1v0(_DB)_DFMr1_lite_r1:
+ - Added board color note (Dar blue)
