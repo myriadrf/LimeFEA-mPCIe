@@ -285,7 +285,7 @@ LimeFEA mPCIe board is a low-profile PCIe expansion card designed to fit into x4
   +---------+----------------------------------+---------------------------+------------------------------------+
 
 Mini PCIe Socket
--------------------------
+----------------
 
 LimeFEA mPCIe board features mini PCIe specification compatible socket. Mini PCIe specification defines only 1 PCIe lane, but LimeFEA mPCIe features 2 PCIe lanes. Also mPCIe socket provides synchronization signals for LimeSDR XTRX board. More detailed information is listed in
 
@@ -401,15 +401,28 @@ LimeFEA mPCIe board features mini PCIe specification compatible socket. Mini PCI
   | 52       | 3.3Vaux                     | VCC3P3                      | VCC3P3_MPCIE               | Main power input 3.3V   (VCC3P3_MPCIE)                           |
   +----------+-----------------------------+-----------------------------+----------------------------+------------------------------------------------------------------+
 
+mPCIe Expansion Board Thermal Gap Filler
+----------------------------------------
+
+LimeFEA mPCIe features a 35 mm x 17 mm dimensions exposed copper pad near mPCIe connector (X5). 
+Thermal gap filler can be applied on the exposed copper pad to help with mini PCIe expansion board heat disipation.
+In case that LimeSDR XTRX mPCIe expansion board is used we recommend 30 mm x 17 mm thermal gap filler with a thickness of 0.5 mm. Place it starting from mPCIe connector side leaving copper near standoffs uncovered as shown in figure 6.
+
+
+.. figure:: documentation/images/LimeFEA-mPCIe_v1.0_XTRX_thermal_pad.png
+  :width: 600
+
+  Figure 6: Recommended thermal gap filler dimensions and placement for LimeSDR-XTRX
+
 RF Front End (only in full version)
 -----------------------------------
 
-LimeFEA mPCIe RF path features power amplifiers, low noise amplifiers and SPDT switches as shown in figure 6.
+LimeFEA mPCIe RF path features power amplifiers, low noise amplifiers and SPDT switches as shown in figure 7.
 
 .. figure:: documentation/images/LimeFEA-mPCIe_v1.0_RFFE.svg
   :width: 600
 
-  Figure 6: LimeFEA mPCIe v1.0 RF path block diagram
+  Figure 7: LimeFEA mPCIe v1.0 RF path block diagram
 
 A single control signal (TDD_GPIO3_N) is used to control all RF switches simultaneously for both A and B channels to change between TDD and FDD modes as shown in table 4.
 
@@ -467,12 +480,13 @@ More detailed RF path component parameters are given in table 6.
 PPS and Clock Connectors (only in full version)
 -----------------------------------------------
 
-There are U.FL connectors that can be used to input and output PPS and clock signals for LimeSDR XTRX board. Clock and PPS signal directions are shown in figure 7.
+There are U.FL connectors that can be used to input and output PPS and clock signals for LimeSDR XTRX board. Clock and PPS signal directions are shown in figure 8.
 
 .. figure:: documentation/images/LimeFEA-mPCIe_v1.0_clock.svg
   :width: 600
 
-  Figure 7: LimeFEA mPCIe v1.0 RF PPS and clock signal block diagram
+  Figure 8
+  : LimeFEA mPCIe v1.0 RF PPS and clock signal block diagram
 
 PPS and clock connectors descriptions are listed in table 7
 
@@ -537,12 +551,12 @@ So JTAG header (X8) can be used to connect LimeSD XTRXT to JTAG programmer. More
 Power Distribution
 -------------------------
 
-LimeFEA mPCIe board power delivery network consists of different power rails with different regulators, voltages and filters. LimeFEA mPCIe board power distribution block diagram is presented in figure 8.
+LimeFEA mPCIe board power delivery network consists of different power rails with different regulators, voltages and filters. LimeFEA mPCIe board power distribution block diagram is presented in 9.
 
 .. figure:: documentation/images/LimeFEA-mPCIe_v1.0_power.svg
   :width: 600
 
-  Figure 8: LimeFEA mPCIe v1.0 power distribution block diagram
+  Figure 9: LimeFEA mPCIe v1.0 power distribution block diagram
 
 LimeFEA mPCIe board may be supplied from USB microB port (USB 5V), PCIe edge connector (12V and 3.3V) or header (3.3V or 5V). It is important to note that only 3.3V is permitted by mPCIe specification, so use 5V power only if manufacturer specifies 5V supply (for example  LimeSDR XTRX does allow 5V power supply voltage):
 
