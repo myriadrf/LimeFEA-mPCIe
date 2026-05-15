@@ -9,7 +9,7 @@ release = 'latest'
 # github_repo_path should be set to the branch + path to the docs.
 # E.g. 'master/docs/', 'main/docs/' or 'docs/docs/' etc.
 
-github_repo = 'RepoName'
+github_repo = 'LimeFEA-mPCIe'
 github_repo_path = 'docs/docs/'
 
 # The default language for syntax highlighting in code blocks.
@@ -19,6 +19,7 @@ highlight_language = 'console'
 # Intersphinx mapping
 # To minimise build time only include projects that are referenced.
 intersphinx_internal = [
+    'sdrxtrx',
 #    'suiteng',
 ]
 
@@ -30,4 +31,4 @@ intersphinx_external = [
 archived = False
 
 # When True internal intersphinx targets point at stage.myriadrf.org.
-staging = True
+staging = False
