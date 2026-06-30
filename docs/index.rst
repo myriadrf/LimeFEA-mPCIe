@@ -131,6 +131,7 @@ Connectors
   * JTAG (2.54 mm pitch) header that is connected to a spring connector (for LimeSDR XTRX)
   * Nano-SIM socket
   * Coaxial RF (12x U.FL female) connectors for RF front end and synchronization signals 
+
 RF Front End
 ============
 

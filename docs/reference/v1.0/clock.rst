@@ -1,5 +1,5 @@
 Reference Clock and 1PPS  (only in full version)
-###############################################
+################################################
 
 There are U.FL connectors that can be used to input and output PPS and clock signals for LimeSDR XTRX board. Clock and PPS signal directions are shown in figure 5.
 
