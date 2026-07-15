@@ -122,6 +122,13 @@ Board size: 68.9mm x 100mm (Low-Profile PCIe expansion card).
 Features
 ********
 
+Devices
+=======
+
+  * TX power amplifiers: Qorvo TQP3M9018
+  * RX low noise amplifiers: Qorvo SPF5043Z
+  * RF (TDD) switches: Skyworks Solutions Inc. SKY13286
+
 Connectors
 ==========
 
@@ -132,19 +139,12 @@ Connectors
   * Nano-SIM socket
   * Coaxial RF (12x U.FL female) connectors for RF front end and synchronization signals 
 
-RF Front End
-============
-
-  * LNAs, PAs, RF switches, power and mode control (TDD and FDD)
-
 General user inputs/outputs:
 ============================
 
   * 3x general purpose LEDs (PCIe indication by default)
   * 3x general purpose I/Os (unpopulated)
   * Power source selection for mini PCIe card and RFFE (2.54 mm pitch headers)
-
-
 
 Purchasing
 **********
