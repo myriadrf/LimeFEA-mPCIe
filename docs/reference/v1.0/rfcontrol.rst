@@ -1,16 +1,16 @@
-RF Front End (only in full variant)
+RF Front End (Full)
 ###################################
 
-LimeFEA mPCIe RF path features power amplifiers, low noise amplifiers and SPDT switches as shown in figure 4.
+LimeFEA mPCIe Full variant features RF front end with power amplifiers, low noise amplifiers and SPDT switches as shown in figure 4.
 
 .. figure:: /images/LimeFEA-mPCIe_v1.0_RFFE.svg
   :width: 600
 
-  Figure 4: LimeFEA mPCIe v1.0 RF path block diagram
+  Figure 4: LimeFEA mPCIe v1.0 Full RF path block diagram
 
 A single control signal (TDD_GPIO3_N) is used to control all RF switches simultaneously for both A and B channels to change between TDD and FDD modes as shown in table 4.
 
-.. list-table:: Table 4. F path truth table
+.. list-table:: Table 4. RF path truth table
    :header-rows: 1
 
    * - Control signal (TDD_GPIO3_N)
@@ -23,7 +23,7 @@ A single control signal (TDD_GPIO3_N) is used to control all RF switches simulta
      - LNAout A/B
      - NC
 
-RF path contains U.FL connectors (X13A/B, X14A/B) used for internal connections (for example to connect to LimeSDR XTRX mini PCIe expansion board) and (X15A/B, X16A/B) connecting antennas. 
+RF path contains U.FL connectors (X13A/B, X14A/B) used for internal connections (for example to connect to LimeSDR XTRX) and (X15A/B, X16A/B) connecting antennas. 
 
 Signal frequency range of TX and RX paths are listed in table 5.
 
@@ -39,7 +39,7 @@ Signal frequency range of TX and RX paths are listed in table 5.
 
 More detailed RF path component parameters are given in table 6.
 
-.. table:: Table 6. RF path signal fequency range
+.. table:: Table 6. RFFE components
 
   +---------------+--------------+--------------------+--------------+----------------------+------------+
   | **Component** | **Function** | **Frequency, MHz** | **Gain, dB** | **Output P1dB, dBm** | **NF, dB** |

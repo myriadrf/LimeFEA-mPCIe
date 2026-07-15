@@ -1,21 +1,21 @@
-Reference Clock and 1PPS Connectors (only for full variant)
+Reference Clock and 1PPS Connectors (Full)
 ###########################################################
 
-LimeFEA mPCIe board offers four :external+sdrxtrx:ref:`LimeSDR XTRX <index:introduction>` compatible reference clock and 1PPS U.FL connectors.  
+LimeFEA mPCIe Full variant board offers four :external+sdrxtrx:ref:`LimeSDR XTRX <index:introduction>` compatible reference clock and 1PPS U.FL connectors.  
 
 .. figure:: /images/LimeFEA-mPCIe_v1.0_clkcon.png
   :width: 600
   
-  Figure 4: LimeFEA mPCIe reference clock and 1PPS connectors
+  Figure 4: LimeFEA mPCIe Full reference clock and 1PPS connectors
 
 .. _ref-clk-table:
 
-.. list-table:: Table 2. reference clock and 1PPS connectors
+.. list-table:: Table 2. Reference clock and 1PPS connectors
    :header-rows: 1
 
-   * - Connector id
-     - mPCIe pin
-     - :external+sdrxtrx:ref:`LimeSDR XTRX <index:introduction>` description
+   * - Connector Id
+     - mPCIe Pin
+     - :external+sdrxtrx:ref:`LimeSDR XTRX <index:introduction>` Description
    * - X3
      - 3
      - 1PPS input

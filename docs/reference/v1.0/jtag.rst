@@ -3,7 +3,7 @@ JTAG
 
 LimeFEA mPCIe board has JTAG 2.54 mm pitch header to spring connector adapter that is designed to be used with LimeSDR XTRX. 
 Since JTAG programmer can’t be connected directly to the LimeSDR XTRX board while it is sloted into mPCIe.
-So JTAG header (X8) can be used to connect LimeSD XTRXT to JTAG programmer. More detailed information about JTAG header and its connection to spring connector (X10) is given in table 8.
+So JTAG header (X8) can be used to connect LimeSD XTRX to JTAG programmer. More detailed information about JTAG header and its connection to spring connector (X10) is given in table 8.
 
 .. list-table:: Table 8. JTAG Header and Spring Connector pinouts
    :header-rows: 1

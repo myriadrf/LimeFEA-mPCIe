@@ -1,7 +1,7 @@
 Power Distribution
 ##################
 
-LimeFEA mPCIe board power delivery network consists of different power rails with different regulators, voltages and filters. LimeFEA mPCIe board power distribution block diagram is presented in 6.
+LimeFEA mPCIe board power delivery network consists of different power rails with different regulators, voltages and filters. LimeFEA mPCIe board power distribution block diagram is presented in figure 6.
 
 .. figure:: /images/LimeFEA-mPCIe_v1.0_power.svg
   :width: 600

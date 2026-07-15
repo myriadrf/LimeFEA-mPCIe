@@ -1,7 +1,7 @@
 Overview
 ########
 
-Ohe heart of the LimeFEA mPCIe adapter board is mPCIe x2 socket compatible with LimeSDR XTRX. LimeFEA mPCIe provides user with SIM micro socket and RF front end (RFFE). The block diagram for LimeFEA mPCIe board is as shown in figure 2.
+The heart of the LimeFEA mPCIe adapter board is mPCIe x2 socket compatible with LimeSDR XTRX. Additionally LimeFEA mPCIe Full variant provides user with SIM micro socket and RF front end (RFFE). The block diagram for LimeFEA mPCIe board is as shown in figure 2.
 
 .. figure:: /images/LimeFEA-mPCIe_v1.0_block.svg
   :width: 600

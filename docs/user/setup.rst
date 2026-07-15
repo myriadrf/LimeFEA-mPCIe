@@ -40,13 +40,13 @@ In case that :external+sdrxtrx:ref:`LimeSDR XTRX <index:introduction>` is used w
 
   Figure 2: Recommended thermal gap filler dimensions and placement for :external+sdrxtrx:ref:`LimeSDR XTRX <index:introduction>`
 
-RF Connections (only for full variant)
+RF Connections (Full)
 **************************************
 
 .. figure:: /images/LimeFEA-mPCIe_v1.0_rfcon.png
   :width: 600
   
-  Figure 3: LimeFEA XTRX v1.3 board top with RF connector positions
+  Figure 3: LimeFEA mPCIe v1.0 Full board RF connector positions
 
 .. list-table:: Table 1. RF Connectors
       :header-rows: 1      
@@ -54,7 +54,7 @@ RF Connections (only for full variant)
       * - Connector
         - Type
         - Function
-        - Frequency range
+        - Frequency Range
       * - X13A (Ch A), X13B (Ch B)
         - U.FL
         - TX input
